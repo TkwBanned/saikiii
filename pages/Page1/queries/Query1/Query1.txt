@@ -1,0 +1,11 @@
+SELECT 
+  CASE 
+    WHEN SUBSTR(name, 1, 1) = 'j' THEN 'color: red'  
+    WHEN SUBSTR(name, 2, 1) = 'a' THEN 'color: orange'
+    WHEN SUBSTR(name, 3, 1) = 'j' THEN 'color: yellow' 
+    WHEN SUBSTR(name, 4, 1) = 'j' THEN 'color: green'
+    WHEN SUBSTR(name, 5, 1) = 's' THEN 'color: blue'
+    WHEN SUBSTR(name, 6, 1) = 'h' THEN 'color: indigo'
+    ELSE name
+  END AS name
+FROM "users"
