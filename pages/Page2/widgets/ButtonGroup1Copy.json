@@ -1,0 +1,143 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 58,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "buttonVariant": "SECONDARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "groupButtons.groupButton3.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem3.backgroundColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem1.backgroundColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem1.textColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem2.backgroundColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem2.textColor"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem3.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#22c55e",
+      "buttonType": "SIMPLE",
+      "iconName": "disable",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "DESBANIR",
+      "menuItems": {},
+      "onClick": "{{resetWidget(\"PhoneInput1Copy\", true).then(() => {\n  showAlert('DESBANIDO COM SUCESSO', 'success');\n});}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton3": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "MENU",
+      "iconAlign": "left",
+      "iconName": "more",
+      "id": "groupButton3",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "OPÇOES",
+      "menuItems": {
+        "menuItem1": {
+          "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
+          "iconColor": "#ef4444",
+          "iconName": "disable",
+          "id": "menuItem1",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "DESBAN PERMA",
+          "onClick": "{{showAlert('DESBAN PERMA SELECIONADO', 'info');}}",
+          "textColor": "{{appsmith.theme.colors.primaryColor}}",
+          "widgetId": ""
+        },
+        "menuItem2": {
+          "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
+          "iconColor": "#22c55e",
+          "iconName": "disable",
+          "id": "menuItem2",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "DESBAN NORMAL ",
+          "onClick": "{{showAlert('DESBAN NORMAL SELECIONADO', 'info');}}",
+          "textColor": "{{appsmith.theme.colors.primaryColor}}",
+          "widgetId": ""
+        },
+        "menuItem3": {
+          "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
+          "iconAlign": "right",
+          "iconColor": "#ef4444",
+          "iconName": "trash",
+          "id": "menuItem3",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "LIMPAR ",
+          "onClick": "{{resetWidget(\"PhoneInput1Copy\", true);}}",
+          "textColor": "#FFFFFF",
+          "widgetId": ""
+        }
+      },
+      "placement": "CENTER",
+      "widgetId": ""
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "kyfh0xvsnd",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 108,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 104,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 58,
+  "originalTopRow": 54,
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 54,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "657w2h6z7p",
+  "widgetName": "ButtonGroup1Copy"
+}

@@ -1,8 +1,8 @@
 {
   "animateLoading": true,
-  "borderColor": "#ef4444",
+  "backgroundColor": "#0062ff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 21,
+  "bottomRow": 14,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -10,12 +10,15 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Montserrat",
-  "fontSize": "1.875rem",
+  "fontFamily": "Poppins",
+  "fontSize": "1.25rem",
   "fontStyle": "BOLD",
   "hideCard": false,
   "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -27,15 +30,15 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 20,
-  "mobileLeftColumn": 23,
-  "mobileRightColumn": 39,
-  "mobileTopRow": 16,
-  "originalBottomRow": 21,
-  "originalTopRow": 16,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 5,
+  "originalBottomRow": 67,
+  "originalTopRow": 63,
   "overflow": "NONE",
-  "parentColumnSpace": 6.84375,
-  "parentId": "0",
+  "parentColumnSpace": 6.53125,
+  "parentId": "jkuv2pxacn",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -50,13 +53,13 @@
     "Suggested",
     "Content"
   ],
-  "text": "BANIR WHATSAPP",
+  "text": "@saiki_178 TELEGRAM ",
   "textAlign": "CENTER",
-  "textColor": "#ff0000",
-  "topRow": 16,
+  "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "topRow": 10,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "hqflrj47bc",
-  "widgetName": "Text2"
+  "widgetId": "0e4v386ajp",
+  "widgetName": "Text1CopyCopyCopyCopy"
 }
