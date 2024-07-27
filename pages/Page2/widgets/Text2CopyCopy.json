@@ -2,7 +2,7 @@
   "animateLoading": true,
   "borderColor": "#ef4444",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 68,
+  "bottomRow": 66,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -31,8 +31,8 @@
   "mobileLeftColumn": 23,
   "mobileRightColumn": 39,
   "mobileTopRow": 16,
-  "originalBottomRow": 68,
-  "originalTopRow": 63,
+  "originalBottomRow": 66,
+  "originalTopRow": 61,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -50,13 +50,13 @@
     "Suggested",
     "Content"
   ],
-  "text": "Spam SMS WhatsApp",
+  "text": "INVADIR WHATSAPP",
   "textAlign": "CENTER",
   "textColor": "#ff0000",
-  "topRow": 63,
+  "topRow": 61,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "a2hi52smoc",
+  "widgetId": "gejtunhwff",
   "widgetName": "Text2CopyCopy"
 }
