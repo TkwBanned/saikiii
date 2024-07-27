@@ -2,7 +2,7 @@
   "animateLoading": true,
   "borderColor": "#ef4444",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 66,
+  "bottomRow": 73,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -10,6 +10,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -31,8 +34,8 @@
   "mobileLeftColumn": 23,
   "mobileRightColumn": 39,
   "mobileTopRow": 16,
-  "originalBottomRow": 66,
-  "originalTopRow": 61,
+  "originalBottomRow": 73,
+  "originalTopRow": 68,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -52,8 +55,8 @@
   ],
   "text": "INVADIR WHATSAPP",
   "textAlign": "CENTER",
-  "textColor": "#ff0000",
-  "topRow": 61,
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "topRow": 68,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

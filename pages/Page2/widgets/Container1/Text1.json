@@ -2,7 +2,7 @@
   "animateLoading": true,
   "backgroundColor": "#ef4444",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 12,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -56,7 +56,7 @@
   "text": "Painel Priv Methods",
   "textAlign": "CENTER",
   "textColor": "{{appsmith.theme.colors.backgroundColor}}",
-  "topRow": 4,
+  "topRow": 8,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

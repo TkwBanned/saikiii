@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 15,
   "boxShadow": "none",
   "defaultImage": "https://th.bing.com/th/id/OIP.4Rubi9bW7Br_J-DQ6RaIfQHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1,8",
   "displayName": "Image",
@@ -22,7 +22,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "48ghegluye",
-  "leftColumn": 41,
+  "leftColumn": 39,
   "maxZoomLevel": 1,
   "mobileBottomRow": 13,
   "mobileLeftColumn": 49,
@@ -33,7 +33,7 @@
   "parentId": "p2h0dyy915",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 60,
+  "rightColumn": 63,
   "tags": [
     "Media"
   ],

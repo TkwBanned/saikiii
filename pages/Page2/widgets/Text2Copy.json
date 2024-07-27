@@ -1,8 +1,9 @@
 {
   "animateLoading": true,
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderColor": "#ef4444",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 43,
+  "bottomRow": 50,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -10,6 +11,12 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
+    },
+    {
+      "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -31,8 +38,8 @@
   "mobileLeftColumn": 23,
   "mobileRightColumn": 39,
   "mobileTopRow": 16,
-  "originalBottomRow": 43,
-  "originalTopRow": 38,
+  "originalBottomRow": 50,
+  "originalTopRow": 45,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -52,8 +59,8 @@
   ],
   "text": "DESBANIR WHATSAPP",
   "textAlign": "CENTER",
-  "textColor": "#ff0000",
-  "topRow": 38,
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "topRow": 45,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

@@ -33,7 +33,7 @@
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
-      "minHeight": 270,
+      "minHeight": 280,
       "minWidth": 450,
       "mobileBottomRow": 0,
       "mobileLeftColumn": 0,
@@ -92,5 +92,5 @@
   "version": 2,
   "widgetId": "ohp2nszq9b",
   "widgetName": "Modal1",
-  "width": 332.84999999999997
+  "width": 350.84999999999997
 }
