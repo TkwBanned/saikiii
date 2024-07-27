@@ -30,7 +30,7 @@
   "labelAlignment": "left",
   "labelPosition": "Auto",
   "labelStyle": "BOLD",
-  "labelTextColor": "#ef4444",
+  "labelTextColor": "#ff0000",
   "labelTextSize": "1rem",
   "labelWidth": 5,
   "leftColumn": 0,
