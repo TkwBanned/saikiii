@@ -6,6 +6,17 @@
   "applicationDetail": {
     "appPositioning": {
       "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
     }
   },
   "applicationVersion": 2,
@@ -46,6 +57,17 @@
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
     }
   }
 }
