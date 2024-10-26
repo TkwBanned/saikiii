@@ -22,7 +22,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "ngkgny453b",
-  "leftColumn": 26,
+  "leftColumn": 27,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -38,7 +38,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 50,
+  "rightColumn": 51,
   "searchTags": [
     "typography",
     "paragraph",
