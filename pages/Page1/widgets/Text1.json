@@ -56,7 +56,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "Painel WhatsApp V2",
+  "text": "Painel WhatsApp V3",
   "textAlign": "CENTER",
   "textColor": "{{appsmith.theme.colors.backgroundColor}}",
   "topRow": 17,
